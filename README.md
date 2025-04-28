@@ -1,1 +1,1 @@
-# Business-Promotion
+# Business Promotion
