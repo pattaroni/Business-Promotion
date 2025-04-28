@@ -1,0 +1,346 @@
+/* #region Basic */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+:root {
+    --font-family: "Poppins", sans-serif;
+    --second-family: "Inter", sans-serif;
+    --third-family: "Montserrat", sans-serif;
+    --font4: "Roboto", sans-serif;
+}
+body {
+    font-family: var(--font-family), var(--second-family), var(--third-family), var(--font4);
+}
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+ul {
+    margin: 0;
+    padding-left: 0;
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+img {
+    display: block;
+}
+input, textarea, button {
+    font-family: inherit;
+    line-height: inherit;
+}
+textarea {
+    resize: none;
+}
+.container {
+    width: 1150px;
+    margin: 0 auto;
+    padding: 0 20px;
+ }
+/* #endregion Basic */
+
+/* #region Header */
+.logo {
+    display: flex;
+    align-items: center;
+}
+.text-logo {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 0.93333;
+    color: #173a56;
+    padding-left: 16px;
+}
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+.nav {
+    display: flex;
+    align-items: center;
+}
+.menu-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin: 0 73px 0 237px;
+}
+.menu-list-element:nth-child(1) a {
+    font-weight: 600;
+}
+.menu-list-element a {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.75;
+    color: #22343d;
+}
+.sign-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 21px;
+}
+.sign-list-element {
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+}
+.header-sign-in-btn {
+    color: #173a56;
+    border: 1px solid #bcd0e5;
+    border-radius: 4px;
+    width: 105px;
+    height: 42px;
+    background-color: #fff;
+    cursor: pointer;
+}
+.header-sign-up-btn {
+    color: #fff;
+    width: 113px;
+    height: 42px;
+    border-radius: 4px;
+    border: none;
+    background-color: #02897a;
+    cursor: pointer;
+}
+/* #endregion Header */
+
+/* #region Speed Work */
+.section-speed-work {
+    margin-top: 25px;
+    margin-bottom: 100px;
+}
+.section-speed-work .container {
+    display: flex;
+    gap: 35px;
+}
+.div-speed-work {
+    padding: 112px 0;
+}
+.speed-work-header {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.5;
+    color: #22343d;
+    margin-bottom: 18px;
+}
+.speed-work-text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.55556;
+    color: #22343d;
+    margin-bottom: 45px;
+}
+.speed-work-btns-div {
+    display: flex;
+    align-items: center;
+}
+.get-started-btn {
+    border-radius: 4px;
+    width: 178px;
+    height: 53px;
+    border: none;
+    cursor: pointer;
+    background-color: #02897a;
+    font-weight: 700;
+    font-size: 16px;
+    color: #fff;
+    margin-right: 30px;
+}
+.play-icon {
+    fill: #02897a;
+}
+.link-video {
+    display: flex;
+}
+.speed-work-text-link {
+    font-weight: 600;
+    font-size: 16px;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: #02897a;
+    margin-left: 8.66px;
+}
+/* #endregion Speed Work */
+
+/* #region Product Built */
+.section-product-built {
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+}
+.product-built-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 32px;
+    color: #22343d;
+    max-width: 500px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.product-built-list {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 50px;
+}
+.product-built-element {
+    flex-basis: calc((100% - 90px) / 4);
+}
+.product-built-box {
+    width: 54px;
+    height: 54px;
+    border-radius: 19px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 26px;
+}
+.product-built-box.one {
+    background: #02897a;
+}
+.product-built-box.two {
+    background: #4d8dff;
+}
+.product-built-box.three {
+    background: #740a76;
+}
+.product-built-box.four {
+    background: #f03e3d;
+}
+.product-built-icon {
+    fill: #fff;
+}
+.product-built-list h3 {
+    font-weight: 600;
+    font-size: 22px;
+    color: #22343d;
+    margin-bottom: 13px;;
+}
+.product-built-list p {
+font-weight: 400;
+    font-size: 16px;
+    line-height: 1.625;
+    color: #22343d;
+}
+.prod-built-btn {
+    font-weight: 700;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 4px;
+    border: none;
+    width: 175px;
+    height: 53px;
+    background-color: #02897a;
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+}
+/* #endregion Product Built */
+
+/* #region Management */
+.section-management {
+    margin-bottom: 100px;
+}
+.section-management .container {
+    display: flex;
+    gap: 84px;
+}
+.management-div {
+    padding-top: 41px;
+}
+.h3-title {
+    font-weight: 600;
+    font-size: 16px;
+    color: #22343d;
+    margin-bottom: 8px;
+}
+.management-title {
+    font-weight: 700;
+    font-size: 32px;
+    color: #22343d;
+    margin-bottom: 25px;
+}
+.management-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.625;
+    color: #22343d;
+    max-width: 486px;
+    margin-bottom: 30px;
+}
+.management-text.list {
+    margin-bottom: 25px;
+}
+.h3-title.list {
+    margin-bottom: 12px;
+}
+/* #endregion Management */
+
+/* #region Customer Support */
+.section-customer {
+    margin-bottom: 100px;
+}
+.section-customer .container {
+    display: flex;
+    gap: 84px;
+}
+.customer-div {
+    padding-top: 41px;
+}
+.customer-title {
+    font-weight: 700;
+    font-size: 32px;
+    color: #22343d;
+    margin-bottom: 25px;
+}
+.customer-text {
+    max-width: 437px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.625;
+    color: #22343d;
+    margin-bottom: 30px;
+}
+.customer-list-element {
+    display: flex;
+    max-width: 450.77px;
+    gap: 30.06px;
+    align-items: center;
+    margin-bottom: 25px;
+}
+.customer-list-element:nth-child(3) {
+    margin: 0;
+}
+.customer-div-icon {
+    border: 2.92px solid #fff;
+    border-radius: 14px;
+    width: 35px;
+    height: 35px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.customer-div-icon.one {
+    background-color: #f90;
+}
+.customer-div-icon.two {
+    background: #f03e3d;
+}
+.customer-div-icon.three {
+    background: #4d8dff;
+}
+.customer-list-icon {
+    fill: #fff;
+}
+.customer-list-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.625;
+    color: #22343d;
+}
+/* #endregion Customer Support */
