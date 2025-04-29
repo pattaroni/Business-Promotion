@@ -178,7 +178,7 @@ textarea {
     font-weight: 700;
     font-size: 32px;
     color: #22343d;
-    max-width: 500px;
+    max-width: 539px;
     margin: 0 auto;
     margin-bottom: 50px;
 }
@@ -383,7 +383,7 @@ font-weight: 400;
     margin-bottom: 100px;
 }
 .section-quick-process .container {
-    padding: 0 97px;
+    padding: 0 107px;
 }
 .quick-process-title {
     font-weight: 700;
@@ -617,3 +617,79 @@ font-weight: 400;
     color: #02897a;
 }
 /* #endregion Price Table */
+
+/* #region Clients */
+.section-clients {
+    margin-bottom: 100px;
+}
+.clients-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 1.78125;
+    letter-spacing: 0.01em;
+    color: #22343d;
+    margin-bottom: 10px;
+}
+.clients-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.75;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #22343d;
+    max-width: 537px;
+    margin: 0 auto;
+}
+.clients-list {
+    display: flex;
+    gap: 30px;
+    margin-top: 40px;
+}
+.clients-list-element {
+    flex-basis: calc((100% - 60px) / 3);
+    padding: 28px 26px 28px 26px;
+    border: 1px solid #dedede;
+    border-radius: 5px;
+}
+.clients-rating-box {
+    padding-left: 2px;
+    display: flex;
+    gap: 3.66px;
+    margin-bottom: 16px;
+}
+.clients-rating-icon {
+    fill: #f3cd03;
+}
+.clients-list-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.75;
+    letter-spacing: 0.01em;
+    color: #737373;
+    margin-bottom: 16px;
+}
+.clients-list-people {
+    display: flex;
+    gap: 14px;
+    align-items: center;
+}
+.clients-list-people-info {
+    display: flex;
+    flex-direction: column;
+}
+.people-wahid {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.01em;
+    color: #02897a;
+}
+.people-job {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.71429;
+    letter-spacing: 0.01em;
+    color: #252b42;
+}
+/* #endregion Clients */
