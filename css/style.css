@@ -693,3 +693,47 @@ font-weight: 400;
     color: #252b42;
 }
 /* #endregion Clients */
+
+/* #region Join */
+.section-join {
+    margin-bottom: 100px;
+}
+.section-join .container {
+    padding: 0 81px;
+}
+.join-box {
+    display: flex;
+    gap: 10px;
+    padding: 0 46px 0 51px;
+    background-color: #02897a;
+    border-radius: 32px;
+    width: 968px
+}
+.join-box-div {
+    display: flex;
+    flex-direction: column;
+}
+.join-box-div h2 {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1.514;
+    color: #fff;
+    margin-top: 49px;
+    width: 510px;
+    margin-bottom: 46px;
+}
+.join-box-div button {
+    border-radius: 8px;
+    border: none;
+    width: 150px;
+    height: 50px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #02897a;
+    cursor: pointer;
+}
+.join-box img {
+    margin-top: 4px;
+    margin-bottom: 10px;
+}
+/* #endregion Join */
