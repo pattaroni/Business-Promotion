@@ -4,26 +4,371 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Business Promotion</title>
+    <link rel="icon" href="./images/Product/logo.png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/pricing.css" />
   </head>
   <body>
-    <head>
-      <nav>
-        <a href="./index.html"
-          ><img src="./images/Product/logo.png" alt="logo" width="40" />Product
-        </a>
-        <ul>
-          <li><a href="./index.html">Product</a></li>
-          <li><a href="./pricing.html">Pricing</a></li>
-          <li><a href="./customers.html">Customers</a></li>
-          <li><a href="./resources.html">Resources</a></li>
+    <!-- #region Header -->
+    <header class="header">
+      <div class="container">
+        <nav class="nav">
+          <a href="./index.html" class="logo"
+            ><img
+              src="./images/Product/logo.png"
+              alt="logo"
+              width="40"
+              height="36"
+            /><span class="text-logo">Product</span>
+          </a>
+          <ul class="menu-list">
+            <li class="menu-list-element">
+              <a href="./index.html">Product</a>
+            </li>
+            <li class="menu-list-element">
+              <a href="./pricing.html">Pricing</a>
+            </li>
+            <li class="menu-list-element">
+              <a href="./customers.html">Customers</a>
+            </li>
+            <li class="menu-list-element">
+              <a href="./resources.html">Resources</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="sign-list">
+          <li class="sign-list-element">
+            <button type="button" class="header-sign-in-btn">Sign In</button>
+          </li>
+          <li class="sign-list-element">
+            <button type="button" class="header-sign-up-btn">Sign Up</button>
+          </li>
         </ul>
-      </nav>
-      <ul>
-        <li><button type="button">Sign In</button></li>
-        <li><button type="button">Sign Up</button></li>
-      </ul>
-    </head>
-    <main></main>
-    <footer></footer>
+      </div>
+    </header>
+    <!-- #endregion Header -->
+    <!-- #region Price Table -->
+    <main>
+      <section class="section-price-table">
+        <div class="container">
+          <h2 class="price-table-title-small">PRICING</h2>
+          <h2 class="price-table-title">Let's get some real work done here.</h2>
+          <p class="price-table-text">
+            Prodict is your perfect solution for working. Get started now for
+            free
+          </p>
+          <ul class="price-table-list">
+            <li class="price-table-list-element">
+              <h3 class="price-table-list-title">Free</h3>
+              <p class="price-table-list-text">Brief price description</p>
+              <p class="price-table-value">
+                <span class="value-box-count">0</span
+                ><span class="price-table-value-box"
+                  ><span class="value-box-dollar">$</span
+                  ><span class="value-box-month">Per / month</span></span
+                >
+              </p>
+              <ul class="price-table-feature-list">
+                <li class="price-table-feature-list-element">
+                  <p>Only 2 Operators</p>
+                  <p>Notifications</p>
+                  <p class="price-table-p">Landing Pages</p>
+                </li>
+              </ul>
+              <button type="button" class="price-table-btn">Order Now</button>
+            </li>
+            <li class="price-table-list-element">
+              <h3 class="price-table-list-title">Standard</h3>
+              <p class="price-table-list-text">Brief price description</p>
+              <p class="price-table-value">
+                <span class="value-box-count">5</span
+                ><span class="price-table-value-box"
+                  ><span class="value-box-dollar">$</span
+                  ><span class="value-box-month">Per / month</span></span
+                >
+              </p>
+              <ul class="price-table-feature-list">
+                <li class="price-table-feature-list-element">
+                  <p>5+ Operators</p>
+                  <p>Notifications</p>
+                  <p class="price-table-p">Landing Pages</p>
+                </li>
+              </ul>
+              <button type="button" class="price-table-btn">Order Now</button>
+            </li>
+            <li class="price-table-list-element">
+              <h3 class="price-table-list-title">Premium</h3>
+              <p class="price-table-list-text">Brief price description</p>
+              <p class="price-table-value">
+                <span class="value-box-count">10</span
+                ><span class="price-table-value-box"
+                  ><span class="value-box-dollar">$</span
+                  ><span class="value-box-month">Per / month</span></span
+                >
+              </p>
+              <ul class="price-table-feature-list">
+                <li class="price-table-feature-list-element">
+                  <p>10+ Operators</p>
+                  <p>Notifications</p>
+                  <p class="price-table-p">Landing Pages</p>
+                </li>
+              </ul>
+              <button type="button" class="price-table-btn">Order Now</button>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- #endregion Price Table -->
+      <!-- #region Custom Plan -->
+      <section class="section-custom-plan">
+        <div class="container">
+          <h2 class="custom-plan-title-small">ENTERPRISE</h2>
+          <h2 class="custom-plan-title">
+            Are you interested in a custom-tailored plan?
+          </h2>
+          <p class="custom-plan-text">
+            Product is a set of advanced features for really large teams with
+            projects.
+          </p>
+          <button type="button" class="custom-plan-btn">
+            Get in touch with us
+          </button>
+        </div>
+      </section>
+      <!-- #endregion Custom Plan -->
+      <!-- #region Alongside -->
+      <section class="section-alongside">
+        <div class="container">
+          <h2 class="alongside-title">
+            Product is being used with great effects alongside:
+          </h2>
+          <div class="alongside-box">
+            <img
+              src="./images/Pricing/amico.png"
+              alt=""
+              width="528"
+              height="392"
+            />
+            <ul class="alongside-list">
+              <li class="alongside-list-element">
+                <div class="alongside-list-div">
+                  <div class="alongside-list-icon-box">
+                    <svg class="alongside-list-icon" width="24" height="24">
+                      <use href="./images/sprite.svg#feature-one-icon"></use>
+                    </svg>
+                  </div>
+                  <h2 class="alongside-list-element-title">Enterpreneur</h2>
+                </div>
+                <p class="alongside-list-element-text">
+                  Product is a great way to help medium and samall enterprise
+                  owners achieve their goals
+                </p>
+              </li>
+              <li class="alongside-list-element">
+                <div class="alongside-list-div">
+                  <div class="alongside-list-icon-box">
+                    <svg class="alongside-list-icon" width="24" height="24">
+                      <use href="./images/sprite.svg#feature-two-icon"></use>
+                    </svg>
+                  </div>
+                  <h2 class="alongside-list-element-title">Accountants</h2>
+                </div>
+                <p class="alongside-list-element-text">
+                  Whether you are working on contract with clients, or on other
+                  key accounting documents, Product is for you
+                </p>
+              </li>
+              <li class="alongside-list-element">
+                <div class="alongside-list-div">
+                  <div class="alongside-list-icon-box">
+                    <svg class="alongside-list-icon" width="24" height="24">
+                      <use href="./images/sprite.svg#feature-three-icon"></use>
+                    </svg>
+                  </div>
+                  <h2 class="alongside-list-element-title">Universities</h2>
+                </div>
+                <p class="alongside-list-element-text last">
+                  Organize university projects and have documents easily graded
+                  online with Product
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <!-- #endregion Alongside -->
+      <!-- #region Frequently -->
+      <section class="section-frequently">
+        <div class="container">
+          <h2 class="frequently-title">Frequently asked question</h2>
+          <p class="frequently-text">
+            Something is not clear? You need help? Check our FAQ section
+          </p>
+          <ul class="frequently-list">
+            <li class="frequently-list-element">
+              <svg class="frequently-list-icon" width="24" height="24">
+                <use href="./images/sprite.svg#plus-circle-icon"></use>
+              </svg>
+              <h3 class="frequently-list-element-title">
+                What are my payment option?
+              </h3>
+            </li>
+            <li class="frequently-list-element">
+              <div class="frequently-list-minus-box">
+                <svg class="frequently-list-icon" width="24" height="24">
+                  <use href="./images/sprite.svg#minus-circle-icon"></use>
+                </svg>
+                <h3 class="frequently-list-element-title">
+                  How can I invite collaborator to platform?
+                </h3>
+              </div>
+              <p class="frequently-list-text">
+                After creating your account you will have an oppurtunity to
+                create your first project that will be associated withthe
+                collaborators e-mail. An invitation will be sent automatically.
+                Then, invited user will have to confirm his account by e-mail
+                and finish userd onboarding.
+              </p>
+            </li>
+            <li class="frequently-list-element">
+              <svg class="frequently-list-icon" width="24" height="24">
+                <use href="./images/sprite.svg#plus-circle-icon"></use>
+              </svg>
+              <h3 class="frequently-list-element-title">
+                Can I upgrade my plan?
+              </h3>
+            </li>
+            <li class="frequently-list-element">
+              <svg class="frequently-list-icon" width="24" height="24">
+                <use href="./images/sprite.svg#plus-circle-icon"></use>
+              </svg>
+              <h3 class="frequently-list-element-title">
+                Can I cancel my plan at anytime?
+              </h3>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- #endregion Frequently -->
+      <!-- #region Join -->
+      <section class="section-join">
+        <div class="container">
+          <div class="join-box">
+            <div class="join-box-div">
+              <h2>Join 100 Compannies who boost their business with Product</h2>
+              <button type="button">Get This</button>
+            </div>
+            <img
+              src="./images/Product/graphics.png"
+              alt="Graphics"
+              width="351"
+              height="331"
+            />
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- #endregion Join -->
+    <!-- #region Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-box-logo">
+          <a href="./index.html" class="logo"
+            ><img
+              src="./images/Product/logo.png"
+              alt="logo"
+              width="40"
+              height="36"
+            /><span class="text-logo">Product</span>
+          </a>
+          <ul class="footer-social-list">
+            <li class="footer-social-list-element">
+              <a href="https://www.instagram.com/" class="footer-social-link">
+                <svg class="footer-social-icon" width="24" height="24">
+                  <use href="./images/sprite.svg#instagram-icon"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-social-list-element">
+              <a href="https://www.facebook.com/" class="footer-social-link">
+                <svg class="footer-social-icon" width="24" height="24">
+                  <use href="./images/sprite.svg#facebook-icon"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-social-list-element">
+              <a href="https://twitter.com/" class="footer-social-link">
+                <svg class="footer-social-icon" width="24" height="24">
+                  <use href="./images/sprite.svg#twitter-icon"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-resource-box">
+          <ul class="footer-resource-list">
+            <li class="footer-resource-stuff-list-element">
+              <h3>Resource</h3>
+            </li>
+            <li class="footer-resource-stuff-list-element">
+              <a href="">About Us</a>
+            </li>
+            <li class="footer-resource-stuff-list-element">
+              <a href="">Blog</a>
+            </li>
+            <li class="footer-resource-stuff-list-element">
+              <a href="">Contact</a>
+            </li>
+            <li class="footer-resource-stuff-list-element">
+              <a href="">FAQ</a>
+            </li>
+          </ul>
+        </div>
+        <ul class="footer-stuff-list">
+          <li class="footer-resource-stuff-list-element">
+            <h3>Legal Stuff</h3>
+          </li>
+          <li class="footer-resource-stuff-list-element">
+            <a href="">Disclaimer</a>
+          </li>
+          <li class="footer-resource-stuff-list-element">
+            <a href="">Financing</a>
+          </li>
+          <li class="footer-resource-stuff-list-element">
+            <a href="">Privacy Policy</a>
+          </li>
+        </ul>
+        <div class="footer-form-box">
+          <h2 hidden>.</h2>
+          <p class="footer-form-text">
+            knowing you're always on the best energy deal.
+          </p>
+          <div class="input-box">
+            <input
+              type="text"
+              placeholder="Enter your phone number"
+              class="footer-input"
+            />
+            <svg class="footer-input-icon" width="18" height="28">
+              <use href="./images/sprite.svg#mobile-icon"></use>
+            </svg>
+          </div>
+          <button type="submit" class="footer-btn">Sign up Now</button>
+        </div>
+      </div>
+    </footer>
+    <!-- #endregion Footer -->
   </body>
 </html>

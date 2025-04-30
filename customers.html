@@ -4,25 +4,60 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Business Promotion</title>
+    <link rel="icon" href="./images/Product/logo.png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/customers.css" />
   </head>
   <body>
-    <head>
-      <nav>
-        <a href="./index.html"
-          ><img src="./images/Product/logo.png" alt="logo" width="40" />Product
-        </a>
-        <ul>
-          <li><a href="./index.html">Product</a></li>
-          <li><a href="./pricing.html">Pricing</a></li>
-          <li><a href="./customers.html">Customers</a></li>
-          <li><a href="./resources.html">Resources</a></li>
+    <!-- #region Header -->
+    <header class="header">
+      <div class="container">
+        <nav class="nav">
+          <a href="./index.html" class="logo"
+            ><img
+              src="./images/Product/logo.png"
+              alt="logo"
+              width="40"
+              height="36"
+            /><span class="text-logo">Product</span>
+          </a>
+          <ul class="menu-list">
+            <li class="menu-list-element">
+              <a href="./index.html">Product</a>
+            </li>
+            <li class="menu-list-element">
+              <a href="./pricing.html">Pricing</a>
+            </li>
+            <li class="menu-list-element">
+              <a href="./customers.html">Customers</a>
+            </li>
+            <li class="menu-list-element">
+              <a href="./resources.html">Resources</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="sign-list">
+          <li class="sign-list-element">
+            <button type="button" class="header-sign-in-btn">Sign In</button>
+          </li>
+          <li class="sign-list-element">
+            <button type="button" class="header-sign-up-btn">Sign Up</button>
+          </li>
         </ul>
-      </nav>
-      <ul>
-        <li><button type="button">Sign In</button></li>
-        <li><button type="button">Sign Up</button></li>
-      </ul>
-    </head>
+      </div>
+    </header>
     <main></main>
     <footer></footer>
   </body>
