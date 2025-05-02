@@ -12,6 +12,10 @@
   --font4: "Roboto", sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: var(--font-family), var(--second-family), var(--third-family),
     var(--font4);
@@ -53,7 +57,7 @@ textarea {
 }
 
 .container {
-  width: 1150px;
+  max-width: 1150px;
   margin: 0 auto;
   padding: 0 20px;
 }

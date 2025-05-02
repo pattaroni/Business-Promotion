@@ -12,6 +12,10 @@
   --font4: "Roboto", sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: var(--font-family), var(--second-family), var(--third-family),
     var(--font4);
@@ -53,7 +57,7 @@ textarea {
 }
 
 .container {
-  width: 1150px;
+  max-width: 1150px;
   margin: 0 auto;
   padding: 0 20px;
 }
@@ -463,13 +467,13 @@ textarea {
 }
 
 .section-join .container {
-  padding: 0 81px;
+  padding: 0 91px;
 }
 
 .join-box {
   display: flex;
   gap: 10px;
-  padding: 0 46px 0 51px;
+  padding: 0 36px 0 51px;
   background-color: #02897a;
   border-radius: 32px;
   width: 968px;
@@ -486,7 +490,6 @@ textarea {
   line-height: 1.514;
   color: #fff;
   margin-top: 49px;
-  width: 510px;
   margin-bottom: 46px;
 }
 
